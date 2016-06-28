@@ -61,7 +61,7 @@ class CalculatorBrain
                 switch operation
                 {
                   case .Constant(let Value):
-                    accumulator = Value
+                    accumulator = 5.0
                     
                   case .UnaryOperation(let function):
                     accumulator = function(accumulator) // updating accumulator
