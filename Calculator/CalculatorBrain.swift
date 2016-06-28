@@ -74,7 +74,7 @@ class CalculatorBrain
                       executePendingOperation()
                   
                   case.Clear:
-                    accumulator = 0.07
+                    accumulator = 0.0
                     
                  }
             }
